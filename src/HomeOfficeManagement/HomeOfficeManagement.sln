@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeOfficeManagement", "HomeOfficeManagement\HomeOfficeManagement.csproj", "{89C5EAFE-B11F-4F65-82A5-69633D1E8452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeOfficeManagement.Core", "HomeOfficeManagement.Core\HomeOfficeManagement.Core.csproj", "{E5540F84-8F82-4E75-8042-2FBC4D73E945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89C5EAFE-B11F-4F65-82A5-69633D1E8452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C5EAFE-B11F-4F65-82A5-69633D1E8452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C5EAFE-B11F-4F65-82A5-69633D1E8452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C5EAFE-B11F-4F65-82A5-69633D1E8452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5540F84-8F82-4E75-8042-2FBC4D73E945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5540F84-8F82-4E75-8042-2FBC4D73E945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5540F84-8F82-4E75-8042-2FBC4D73E945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5540F84-8F82-4E75-8042-2FBC4D73E945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC0F1BEC-FA75-4872-BA90-E5F78AEE6737}
+	EndGlobalSection
+EndGlobal
