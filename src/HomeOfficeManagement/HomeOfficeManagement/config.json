@@ -1,0 +1,26 @@
+﻿{
+  "installed": {
+    "client_id": "",
+    "project_id": "",
+    "auth_uri": "",
+    "token_uri": "",
+    "auth_provider_x509_cert_url": "",
+    "client_secret": "",
+    "redirect_uris": [ "", "" ]
+  },
+  "kalender": {
+    "kalenderId": "",
+    "terminNamen": [ "Home Office", "HO", "HomeOffice" ]
+  },
+  "fritzBox": {
+    "loginPage": "",
+    "webserviceBaseUri": "",
+    "fritzBoxUser": {
+      "benutzername": "",
+      "passwort": ""
+    }
+  },
+  "zielgeraete": [
+
+  ]
+}
