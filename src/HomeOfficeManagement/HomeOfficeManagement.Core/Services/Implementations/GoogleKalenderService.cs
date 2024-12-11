@@ -38,7 +38,7 @@ namespace HomeOfficeManagement.Core.Services.Implementations
                 _logger.LogTrace("Starte Abarbeitung von {methode}", nameof(GetKalenderUebersichtFuerNaechsteWoche));
                 _logger.LogDebug("Beginne mit Aufbau der Abfrage");
                 _logger.LogInformation("Aktueller Kalender im Zugriff: {kalender}", _config.Kalender.KalenderId);
-                var kalenderRequest = _calendar.Events.List(_config.Kalender.KalenderId);
+                var kalenderRequest = _calendar.Events.List(_config.Kalender.K/alenderId);
                 kalenderRequest.TimeMin = GetNaechstenMontag(); // Montag
                 kalenderRequest.TimeMax = DateTime.Today.AddDays(6); // Nächster Freitag
                 kalenderRequest.MaxResults = 50;
